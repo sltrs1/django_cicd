@@ -52,7 +52,7 @@ jobs:
         env:
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
           DEBUG: ${{ secrets.DEBUG_MODE }}
-          ALLOWED: : ${{ secrets.ALLOWED_HOSTS }}
+          ALLOWED: ${{ secrets.ALLOWED_HOSTS }}
           DB_ENGINE: ${{ secrets.DB_ENGINE }}
           DB_NAME: ${{ secrets.DB_NAME }}
           DB_USER: ${{ secrets.DB_USER }}
