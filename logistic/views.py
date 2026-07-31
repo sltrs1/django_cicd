@@ -24,4 +24,4 @@ class StockViewSet(ModelViewSet):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response({'message': 'Это после добавления шага Деплой'})
+    return Response({'message': 'TEST TEST TEST'})
